@@ -42,3 +42,17 @@ Buradan sonra matristeki her boşluğu doldurmak gerek. Bu boşlukları doldurma
 3. (i-1, j-1) + 0,1 : Eğer o anda bakılan iki kelimedeki harfler aynıysa (match) 0 ile fakat aynı değilse (mismatch) 1 ile toplanır. 
 
 4. (i-2, j-2) + 1 : Bunun olması için i ve j 1'den büyük olmalı ve iki kelimede de yanyana harfler aynı olmalı. ( 'abACus', 'abCAus')
+
+##Örnek Çıktılar
+
+1.Verilen 'ABACUSS' girdisi için gelen sonuçlar.
+![abacuss](https://github.com/brkyataman/did-you-mean-service/blob/master/did-you-mean-abacus.PNG)
+
+2.Verilen 'ABACSU' girdisi için gelen sonuçlar. Burada program son iki harfteki hatayı algılıyor.
+![abacsu](https://github.com/brkyataman/did-you-mean-service/blob/master/did-you-mean-abacsu.PNG)
+
+3.Verilen 'pollini' girdisi için gelen sonuçlar.
+![pollini](https://github.com/brkyataman/did-you-mean-service/blob/master/did-you-mean-pollini.PNG)
+
+4.Zaten dosyada olan bir değer olan 'POLLEX' verilince.
+![pollex](https://github.com/brkyataman/did-you-mean-service/blob/master/pollex.PNG)
