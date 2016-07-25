@@ -1,4 +1,7 @@
 # did-you-mean-service
+
+**Programın çalışması için 'words.txt'yi "C:\\" ye koymanız gerekmekte.**
+
 'Did you mean' servisi için kullanılabilecek başlıca algoritmalar Levenshtein, Jaro-Winkler ve n-gram'dır. Ben bu programda Levenshtein algoritmasını daha gelişmişi olan Damerau-Levenshtein algorithmasını kullandım.
 
 Jaro-Winkler algoritması kelimeler arasındaki eşleşen harflerin sayısına ve bunların yerlerine, sıralarına bağlı olarak 0 ila 1 arasında bir oran bulur. Bu oranın yüksekliği kelimelerin benzerliğini gösterir.
