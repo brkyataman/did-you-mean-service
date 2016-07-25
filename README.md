@@ -46,13 +46,17 @@ Buradan sonra matristeki her boşluğu doldurmak gerek. Bu boşlukları doldurma
 ##Örnek Çıktılar
 
 1.Verilen 'ABACUSS' girdisi için gelen sonuçlar.
+
 ![abacuss](https://github.com/brkyataman/did-you-mean-service/blob/master/did-you-mean-abacus.PNG)
 
 2.Verilen 'ABACSU' girdisi için gelen sonuçlar. Burada program son iki harfteki hatayı algılıyor.
+
 ![abacsu](https://github.com/brkyataman/did-you-mean-service/blob/master/did-you-mean-abacsu.PNG)
 
 3.Verilen 'pollini' girdisi için gelen sonuçlar.
+
 ![pollini](https://github.com/brkyataman/did-you-mean-service/blob/master/did-you-mean-pollini.PNG)
 
 4.Zaten dosyada olan bir değer olan 'POLLEX' verilince.
+
 ![pollex](https://github.com/brkyataman/did-you-mean-service/blob/master/pollex.PNG)
